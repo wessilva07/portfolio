@@ -1,0 +1,60 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+.header-content, .about-content {
+    text-align: center;
+    padding: 25px 0;
+    color: black;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+#projects {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
